@@ -1,0 +1,175 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "icon": "🍕"
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "icon": "🍔"
+    },
+    {
+      "id": 3,
+      "name": "Chicken",
+      "icon": "🍗"
+    },
+    {
+      "id": 4,
+      "name": "French Fries",
+      "icon": "🍟"
+    },
+    {
+      "id": 5,
+      "name": "Desserts",
+      "icon": "🍰"
+    },
+    {
+      "id": 6,
+      "name": "Drinks",
+      "icon": "🥤"
+    }
+  ],
+  "popularFoods": [
+    {
+      "id": 1,
+      "name": "Pepperoni Pizza",
+      "price": "$8.99",
+      "rating": 4.8,
+      "reviews": 150,
+      "category": "Pizza",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDlL_JRoCUGwsP-8PaOp0joqaGN1HeZImQG-Ffo_q1Nw&s=10"
+    },
+    {
+      "id": 2,
+      "name": "Margherita Pizza",
+      "price": "$7.99",
+      "rating": 4.7,
+      "reviews": 128,
+      "category": "Pizza",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8kFc5yasfmojun3JZxjbCriM8hsKEXeiWVRUSmBtHlwkoFItmv3zVxy8Z&s=10"
+    },
+    {
+      "id": 3,
+      "name": "Cheese Pizza",
+      "price": "$8.49",
+      "rating": 4.6,
+      "reviews": 115,
+      "category": "Pizza",
+      "image": "https://static.toiimg.com/photo/53110049.cms"
+    },
+
+    {
+      "id": 4,
+      "name": "Classic Beef Burger",
+      "price": "$7.99",
+      "rating": 4.8,
+      "reviews": 180,
+      "category": "Burger",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMd1n5dj7mg7-WwZAIHa9FEK_iUiMkTO_EkkNRlryNAPlsjVUvg4xZCmaR&s=10"
+    },
+    {
+      "id": 5,
+      "name": "Cheese Burger",
+      "price": "$8.49",
+      "rating": 4.7,
+      "reviews": 165,
+      "category": "Burger",
+      "image": "https://tornadoughalli.com/wp-content/uploads/2023/06/THE-BEST-CHEESEBURGER-RECIPE-FINALS-3-1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Chicken Burger",
+      "price": "$7.49",
+      "rating": 4.6,
+      "reviews": 142,
+      "category": "Burger",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvqOhRuRlkj8hrkWewpf1RtjXmZaCKYEWkwqnUW_qBIA&s=10"
+    },
+
+    {
+      "id": 7,
+      "name": "Fried Chicken",
+      "price": "$9.99",
+      "rating": 4.9,
+      "reviews": 210,
+      "category": "Chicken",
+      "image": "https://easychickenrecipes.com/wp-content/uploads/2023/08/buttermilk-fried-chicken-recipe-2.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Classic French Fries",
+      "price": "$3.99",
+      "rating": 4.7,
+      "reviews": 130,
+      "category": "French Fries",
+      "image": "https://aubreyskitchen.com/wp-content/uploads/2021/01/air-fryer-frozen-french-fries-time.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Cheese Fries",
+      "price": "$4.99",
+      "rating": 4.6,
+      "reviews": 108,
+      "category": "French Fries",
+      "image": "https://www.acouplecooks.com/wp-content/uploads/2022/06/Cheese-Fries-005.jpg"
+    },
+
+    {
+      "id": 10,
+      "name": "Chocolate Cake",
+      "price": "$5.99",
+      "rating": 4.9,
+      "reviews": 155,
+      "category": "Desserts",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuiTu7BGcUEzc5ZJXbKOqACRzSXHR6mgMj-esNI20MdJa_fE07J8rdMeDf&s=10"
+    },
+    {
+      "id": 11,
+      "name": "Strawberry Cake",
+      "price": "$5.49",
+      "rating": 4.8,
+      "reviews": 125,
+      "category": "Desserts",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvAA3K0m-_Py4-hAm5Bqb0TZqPVJZxDldJM8Llr8uskZBL0shyrGlQu0&s=10"
+    },
+    {
+      "id": 12,
+      "name": "Ice Cream",
+      "price": "$4.49",
+      "rating": 4.7,
+      "reviews": 140,
+      "category": "Desserts",
+      "image": "https://www.theroastedroot.net/wp-content/uploads/2023/07/easy-vanilla-ice-cream-recipe-3-760x1200.jpg"
+    },
+
+    {
+      "id": 13,
+      "name": "Fresh Juice",
+      "price": "$3.99",
+      "rating": 4.8,
+      "reviews": 118,
+      "category": "Drinks",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVqzfYa4C7qSXmkGN3Z1XZsN9wiVIwHhKLtjWtryhYEQ-F7_Vi9KUDxyE&s=10"
+    },
+    {
+      "id": 14,
+      "name": "Strawberry Smoothie",
+      "price": "$4.99",
+      "rating": 4.9,
+      "reviews": 145,
+      "category": "Drinks",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo3_fDY_5RdTQsXkyXxJ9ewZ5TU7TSxu9Hcg0Fk2EY-TRSCSJAtTUuY14m&s=10"
+    },
+    {
+      "id": 15,
+      "name": "Iced Coffee",
+      "price": "$4.49",
+      "rating": 4.7,
+      "reviews": 132,
+      "category": "Drinks",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_AuBOw3GQwVY0NNgtgRijP1CmjhU-wgoKJkCFS1zkLhKzLU17HxETYV-r&s=10"
+    }
+  ]
+}
