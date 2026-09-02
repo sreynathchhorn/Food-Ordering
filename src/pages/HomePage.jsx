@@ -6,11 +6,11 @@ import { PromoBanner } from '../components/PromoBanner'
 
 export function HomePage() {
   return (
-    <main className="home-page">
+    <div className="home-page">
       <Hero />
       <PopularCategories />
       <PopularFood />
       <PromoBanner />
-    </main>
+    </div>
   )
 }
