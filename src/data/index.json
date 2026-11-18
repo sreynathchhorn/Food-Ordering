@@ -1,3 +1,4 @@
+
 {
   "categories": [
     {
@@ -59,7 +60,6 @@
       "category": "Pizza",
       "image": "https://static.toiimg.com/photo/53110049.cms"
     },
-
     {
       "id": 4,
       "name": "Classic Beef Burger",
@@ -87,7 +87,6 @@
       "category": "Burger",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvqOhRuRlkj8hrkWewpf1RtjXmZaCKYEWkwqnUW_qBIA&s=10"
     },
-
     {
       "id": 7,
       "name": "Fried Chicken",
@@ -115,7 +114,6 @@
       "category": "French Fries",
       "image": "https://www.acouplecooks.com/wp-content/uploads/2022/06/Cheese-Fries-005.jpg"
     },
-
     {
       "id": 10,
       "name": "Chocolate Cake",
@@ -143,7 +141,6 @@
       "category": "Desserts",
       "image": "https://www.theroastedroot.net/wp-content/uploads/2023/07/easy-vanilla-ice-cream-recipe-3-760x1200.jpg"
     },
-
     {
       "id": 13,
       "name": "Fresh Juice",

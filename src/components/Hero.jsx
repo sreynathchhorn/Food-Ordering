@@ -1,5 +1,3 @@
-import React from 'react'
-
 export function Hero() {
   return (
     <section className="hero">
@@ -12,8 +10,8 @@ export function Hero() {
           </h1>
           <p>Choose your favorite food from our wide range of delicious meals</p>
           <div className="hero-buttons">
-            <button className="btn btn-primary">Order Now</button>
-            <button className="btn btn-secondary">Explore Menu</button>
+            <a className="btn btn-primary" href="#menu">Order Now</a>
+            <a className="btn btn-secondary" href="#menu">Explore Menu</a>
           </div>
         </div>
         <div className="hero-image">

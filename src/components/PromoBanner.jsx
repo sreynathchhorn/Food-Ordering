@@ -1,4 +1,3 @@
-import React from 'react'
 import './PromoBanner.css'
 
 export function PromoBanner() {
@@ -7,7 +6,7 @@ export function PromoBanner() {
       <div className="promo-content">
         <h3>Get <span className="promo-percent">20% Off</span></h3>
         <p>On your first order</p>
-        <button className="btn btn-primary">Order Now</button>
+        <a className="btn btn-primary" href="#menu">Order Now</a>
       </div>
       <div className="promo-image">
         <img
@@ -18,5 +17,3 @@ export function PromoBanner() {
     </section>
   )
 }
-
-

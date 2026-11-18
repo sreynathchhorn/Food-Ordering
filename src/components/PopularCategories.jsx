@@ -1,17 +1,53 @@
-import index from "../data/index.json";
 
-const { categories } = index;
+import foodData from '../data/index.json'
 
-export function PopularCategories() {
+export function PopularCategories({
+  activeTab = 'Delivery',
+  selectedCategory,
+  onSelectCategory,
+}) {
+  const { categories } = foodData
+
+  const heading =
+    activeTab === 'Pick-up'
+      ? 'Browse pick-up categories'
+      : activeTab === 'Restaurants'
+        ? 'Explore restaurants'
+        : 'Browse by category'
+
   return (
     <section className="popular-categories">
-      <h2>Popular Categories</h2>
+      <div className="section-heading">
+        <div>
+          <p className="eyebrow">
+            {activeTab === 'Restaurants'
+              ? 'FIND YOUR FAVORITE'
+              : 'EXPLORE OUR MENU'}
+          </p>
+          <h2>{heading}</h2>
+        </div>
+
+        <button
+          className="view-all-btn"
+          onClick={() => onSelectCategory('All')}
+        >
+          View all
+        </button>
+      </div>
+
       <div className="categories-grid">
         {categories.map((cat) => (
-          <div key={cat.id} className="category-card">
-            <div className="category-icon">{cat.icon}</div>
-            <p>{cat.name}</p>
-          </div>
+          <button
+            key={cat.id}
+            type="button"
+            className={`category-card ${
+              selectedCategory === cat.name ? 'selected' : ''
+            }`}
+            onClick={() => onSelectCategory(cat.name)}
+          >
+            <span className="category-icon">{cat.icon}</span>
+            <span className="category-name">{cat.name}</span>
+          </button>
         ))}
       </div>
     </section>
